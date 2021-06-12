@@ -1,3 +1,7 @@
+* {
+    width: 900px;
+    margin: auto;
+}
 #menu {
     background-image: url("./Assets/backgrounds/landing.jpg");
 }
