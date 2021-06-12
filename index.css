@@ -24,3 +24,18 @@
 #menu-options {
     display: flex;
 }
+#happy-hour {
+    background-color: slategray;
+}
+#party-time {
+    background-color: orangered;
+}
+#breakfast {
+    background-image: url("./Assets/foodtop/breakfast.jpg");
+}
+#lunch {
+    background-image: url("./Assets/foodtop/lunch.jpg");
+}
+#dinner {
+    background-image: url("./Assets/foodtop/dinner.jpg");
+}
