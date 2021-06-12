@@ -4,4 +4,6 @@
 }
 #menu {
     background-image: url("./Assets/backgrounds/landing.jpg");
+    height: 400px;
+    background-size: cover;
 }
