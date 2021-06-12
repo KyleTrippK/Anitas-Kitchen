@@ -8,5 +8,15 @@
     background-size: cover;
 }
 #menu img {
-    width: 27%;
+    width: 23%;
+    margin: auto;
+    display: block;
+}
+#menu p {
+    color: aliceblue;
+    text-align: center;
+    font-size: 24px;
+}
+#menu p span {
+    font-weight: bold;
 }
