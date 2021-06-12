@@ -42,3 +42,10 @@
 #foodsbg {
     background-image: url("./Assets/backgrounds/foodsBg.jpg");
 }
+#subscribe {
+    background-image: url("./Assets/backgrounds/subscribe.jpg");
+    width: 100%;
+}
+#footer {
+    background-color: tomato;
+}
