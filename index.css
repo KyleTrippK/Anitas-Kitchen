@@ -56,6 +56,11 @@
 }
 #second {
     width: 400px;
+    padding: 50px;
+
+}
+.second {
+    text-align: right;
 }
 #drinks {
     display: flex;
@@ -109,6 +114,7 @@
     flex: 25%;
     padding: 10px;
     font-weight: bold;
+    font-size: 18px;
 }
 .foodtypes:hover {
     background-color: whitesmoke;
@@ -136,7 +142,7 @@
     padding-bottom: 10px;
 }
 #customer {
-    border-right: rgb(109, 101, 101) solid;
+    border-right: rgb(109, 101, 101) solid 2px;
     padding-bottom: 10px;
 }
 .customers-holder {
@@ -145,6 +151,9 @@
 }
 .customers-holder img {
     height: 70px;
+}
+.about {
+    padding-left: 30px;
 }
 #subscribe {
     background-image: url("./Assets/backgrounds/subscribe.jpg");
@@ -157,13 +166,12 @@
     font-size: 24px;
 }
 #footer {
-    background-color: tomato;
+    background-color: #F15A29;
 }
 #footer>div {
     display: flex;
     justify-content: center;
 }
-/*.footer1 {
-    margin-top: 30px;
-    margin-right: 10px;
-}*/
+.imagelinks>img {
+    margin-right: 5px;
+}
