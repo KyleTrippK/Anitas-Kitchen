@@ -34,36 +34,35 @@
     background-color: slategray;
 }
 #party-time {
-    background-color: orangered;
+    color: blanchedalmond;
+    background-color: #F15A29;
 }
 .food {
     height: 200px;
+    color: blanchedalmond;
     text-align: center;
+    padding-top: 50px;
     box-sizing: border-box;
 }
 #fastfoods {
     margin: 100px;
+    width: 60%;
+    margin: auto;
 }
 .fastfoods{
     width: 50%;
     display: block;
     border: 1px solid #ddd;
 }
-/*.fastfood1 {
-    display: block;
-}
-
-.fastfoods2 {
-
-}*/
-.drinks {
-    width: 50%;
+#second {
+    width: 400px;
 }
 #drinks {
     display: flex;
+    width: 100%;
 }
-#second {
-    border: 4px black solid;
+.drinks {
+    width: 50%;
 }
 #breakfast {
     background-image: url("./Assets/foodtop/breakfast.jpg");
@@ -81,8 +80,10 @@
     background-size: cover;
 }
 #foodscroll {
+    text-align: center;
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 #foodscroll>div {
     margin-right: 30px;
@@ -95,22 +96,52 @@
 }
 .food-div {
     background-color: beige;
-    width: 80%;
+    width:70%;
     margin: auto;
     margin-top: 55px;
 }
-.food-div>div {
+#food-types {
+    background-color: rgba(0, 0, 0, 0.253);
+    display: flex;
+    text-align: center;
+}
+.foodtypes{
+    flex: 25%;
+    padding: 10px;
+    font-weight: bold;
+}
+.foodtypes:hover {
+    background-color: whitesmoke;
+    color: #F25C2A;
+}
+/*.food-div>div {
     text-align: center;
     display: flex;
 }
 .food-div>div>p {
     flex: 25%;
-}
+    padding: 10px;
+}*/
 #customers {
+    box-shadow: 0px 0px 5px grey;
     display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.customers {
+    width: 60%;
+    padding-bottom: 10px;
+}
+#customer {
+    border-right: rgb(109, 101, 101) solid;
+    padding-bottom: 10px;
 }
 .customers-holder {
     display: flex;
+    justify-content: center;
 }
 .customers-holder img {
     height: 70px;
@@ -120,11 +151,19 @@
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
+    line-height: 300px;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 24px;
 }
 #footer {
     background-color: tomato;
 }
 #footer>div {
     display: flex;
-    align-content: center;
+    justify-content: center;
 }
+/*.footer1 {
+    margin-top: 30px;
+    margin-right: 10px;
+}*/
