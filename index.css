@@ -20,6 +20,9 @@
 #menu-options {
     display: flex;
 }
+.options-:hover {
+    opacity: 0.7;
+}
 .options {
     flex: 25%;
 }
