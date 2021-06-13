@@ -125,10 +125,13 @@
     padding: 10px;
     font-weight: bold;
     font-size: 18px;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
 }
 .foodtypes:hover {
     background-color: whitesmoke;
     color: #F25C2A;
+    border: unset;
 }
 /*.food-div>div {
     text-align: center;
