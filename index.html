@@ -13,28 +13,28 @@
         <p>We Provide The Best Food </br>At The <span>Right Price</span></p>
     </div>
     <div id="menu-options">
-        <div>
-            <div id="happy-hour">Happy Hour</div>
-            <div id="party-time">Party Time</div>
+        <div class="options">
+            <div class="menu-options" id="happy-hour">Happy Hour</div>
+            <div class="menu-options" id="party-time">Party Time</div>
         </div>
-        <div id="breakfast">
+        <div class="options food" id="breakfast">
             <p>Breakfast</p>
         </div>
-        <div id="lunch">
+        <div class="options food" id="lunch">
             <p>Lunch</p>
         </div>
-        <div id="dinner">
+        <div class="options food" id="dinner">
             <p>Dinner</p>
         </div>
     </div>
-    <div>
+    <div id="fastfoods" >
         <table>
             <tr>
-                <td>
-                    <img src="./Assets/fastFood1.jpg" alt="fast foods">
-                    <img src="./Assets/fastFood2.jpg" alt="fast foods">
+                <td class="fastfoods">
+                    <img class="fastfood1" src="./Assets/fastFood1.jpg" alt="fast foods">
+                    <img class="fastfood1" src="./Assets/fastFood2.jpg" alt="fast foods">
                 </td>
-                <td>
+                <td id="second">
                     <h4>Fast Food</h4>
                     <p>You'll love our delicious fast food</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
@@ -45,13 +45,7 @@
                 </td>
             </tr>
             <tr>
-                <td>
-                    <img src="./Assets/drink1.jpg" alt="drinks">
-                </td>
-                <td>
-                    <img src="./Assets/drink2.jpg" alt="drinks">
-                </td>
-                <td>
+                <td id="second">
                     <h4>Drinks</h4>
                     <p>We also produce delicious drinks</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
@@ -60,35 +54,47 @@
                         Nemo facilis quam enim fugit architecto facere!</p>
                         <p><a href="">VIEW GALLERY</a></p>
                 </td> 
+                <td id="drinks">
+                    <img class="drinks" src="./Assets/drink1.jpg" alt="drinks" height="300px">
+                    <img class="drinks" src="./Assets/drink2.jpg" alt="drinks" height="300px">
+                </td>
             </tr>
         </table>
     </div>
-    <div id="foodsbg">
-        <div>
-            <table>
-                    <th>
-                        <td><p>Fast Food</p></td>
-                        <td><p>Drinks</p></td>
-                        <td><p>chicken</p></td>
-                        <td><p>Rice</p></td>
-                    </th>
-                    </table>
-                        <img src="./Assets/fastfoods/chickenBurger.jpg" alt="Chicken Burger">
+    <section id="foodsbg">
+        <div class="food-div">
+            <div>
+                <P>Fast Food</P>
+                <p>Drinks</p>
+                <p>chicken</p>
+                <p>Rice</p>
+            </div>
+                <div id="foodscroll">
+                    <div>                        
+                        <img src="./Assets/fastfoods/chickenBurger.jpg" alt="Chicken Burger" height="200px">
                         <p>Chicken Burger</p>
-                        <img src="./Assets/fastfoods/beefBurger.jpg" alt="Beef Burger">
+                    </div>
+                    <div>
+                        <img src="./Assets/fastfoods/beefBurger.jpg" alt="Beef Burger" height="200px">
                         <p>Beef Burger</p>
-                        <img src="./Assets/fastfoods/chickenPizza.jpg" alt="Chicken Pizza">
+                    </div>
+                    <div>
+                        <img src="./Assets/fastfoods/chickenPizza.jpg" alt="Chicken Pizza" height="200px">
                         <p>Chicken Pizza</p>
+                    </div>
+                </div>
         </div>
-    </div>
-    <div id="Customers">
+    </section>
+    <div id="customers">
         <div>
             <h5>Our Happy Customers</h5>
             <p>George Richard</p>
             <p>Great food! Menu is awesome, their foods are not only great but</br> also in the right price. I'll highly recommend them :)</p>
-            <img src="./Assets/customers/p1.png" alt="customer 1">
-            <img src="./Assets/customers/p2.png" alt="customer 2">
-            <img src="./Assets/customers/p3.png" alt="customer 3">
+            <div class="customers-holder">
+                <img src="./Assets/customers/p1.png" alt="customer 1" height="15px">
+                <img src="./Assets/customers/p2.png" alt="customer 2" height="15px">
+                <img src="./Assets/customers/p3.png" alt="customer 3" height="15px">
+            </div>
         </div>
         <div>
             <h5>About Menu</h5>
@@ -99,13 +105,21 @@
         Get our daily food items delivered to your email
     </div>
     <div id="footer">
-        <img src="./Assets/backgrounds/subscribe.jpg" alt="subscribe">
-        <p>MENU</p>
-        <p>Thats What We Are</p>
-        <img src="./Assets/footerlogs/facebook.png" alt="Facebook link">
-        <img src="./Assets/footerlogs/twitter.png" alt="Twitter link">
-        <img src="./Assets/footerlogs/pinterest.png" alt="Pinterest link">
-        <p>2016 Menu Restaurant</p>
+        <div class="footer">
+            <img src="./Assets/footerlogs/logo_white.png" alt="subscribe" height="50px" width="50px">
+            <p>MENU</p>
+        </div>
+        <div class="footer">
+            <p>Thats What We Are</p>
+        </div>
+        <div class="footer">
+            <img src="./Assets/footerlogs/facebook.png" alt="Facebook link" height="50px" width="50px">
+            <img src="./Assets/footerlogs/twitter.png" alt="Twitter link" height="50px" width="50px">
+            <img src="./Assets/footerlogs/pinterest.png" alt="Pinterest link" height="50px" width="50px">
+        </div>
+        <div class="footer">
+            <p>2016 Menu Restaurant</p>
+        </div>
     </div>
 </body>
 </html>
