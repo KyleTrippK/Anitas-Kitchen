@@ -54,9 +54,13 @@
     margin: auto;
 }
 .fastfoods{
-    width: 50%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
     display: block;
     border: 1px solid #ddd;
+    box-shadow: 0px 0px 5px grey;
 }
 #second {
     width: 400px;
@@ -68,6 +72,14 @@
 #drinks {
     display: flex;
     width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+    box-shadow: 0px 0px 5px grey;
 }
 .drinks {
     width: 50%;
