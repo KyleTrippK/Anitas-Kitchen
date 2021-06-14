@@ -4,7 +4,7 @@
     background-size: cover;
 }
 #menu img {
-    width:;
+    
     padding-top: 50px;
     margin: auto;
     display: block;
@@ -53,9 +53,10 @@
     margin: auto;
 }
 .fastfoods{
-    /*width: 50%;
+    width: 50%;
     background-size: cover;
-    border: 4px solid #ddd;*/
+    border: 4px solid #ddd;
+    box-shadow: 2px 2px 5px grey;
 }
 #second {
     width: 400px;
@@ -68,10 +69,13 @@
 .galimages {
     color: #F25C2A;
     border: 2px solid #F25C2A;
+    padding: 8px;
 }
 #drinks {
     display: flex;
     width: 100%;
+    border: 2px solid #ddd;
+    box-shadow: 2px 2px 5px grey;
 }
 .drinks {
     width: 50%;
@@ -175,7 +179,7 @@
     box-sizing: border-box;                      
 }
 input {
-    background-color:;
+
     height: 50px;
     margin-right: 15px;
     border-radius: 7px;
